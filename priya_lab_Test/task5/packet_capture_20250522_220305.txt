@@ -1,0 +1,9 @@
+[Priya] Starting packet capture at 20250522_220305
+[Priya] Saving human-readable output to packet_capture_20250522_220305.txt
+[Priya] Saving raw packet data to packet_capture_20250522_220305.pcap
+[Priya] Running: sudo tcpdump -i any -c 20 -n -v icmp
+[Priya] Converting pcap to readable text...
+[Priya] Capture complete.
+[Priya] Output saved in:
+[Priya]   - packet_capture_20250522_220305.txt (text summary)
+[Priya]   - packet_capture_20250522_220305.pcap (for Wireshark)

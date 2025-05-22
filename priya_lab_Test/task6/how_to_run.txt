@@ -1,0 +1,18 @@
+step 1 : python3 arp_rarp_simulation.py
+Output File
+
+    arp_rarp_log.txt contains all ARP/RARP request/response logs
+
+
+IPdi run pannuma :
+
+	Example Console and Log Output
+1. Simulate ARP
+Enter IP address: 192.168.1.2
+[ARP] Resolving MAC address for IP: 192.168.1.2
+[ARP] Response: MAC address for 192.168.1.2 is AA:BB:CC:DD:EE:02
+
+[RARP] Resolving IP address for MAC: AA:BB:CC:DD:EE:01
+[RARP] Response: IP address for AA:BB:CC:DD:EE:01 is 192.168.1.1
+
+===========

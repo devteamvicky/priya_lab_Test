@@ -1,0 +1,95 @@
+[Priya] Network diagnostics started by Priya at 20250522_212951
+[Priya] Machine Name (Hostname): debian
+[Priya] Creating output folder at network_diagnostics_20250522_212951
+[Priya] Starting tcpdump to capture ICMP and traceroute traffic into network_diagnostics_20250522_212951/icmp_traceroute.pcap
+[Priya] ----- START: Network Configuration (ifconfig) -----
+[Priya] Running command: ifconfig
+===================================
+./priya_task1_network_dignose.sh: line 29: ifconfig: command not found
+[Priya] ----- COMPLETE: Network Configuration (ifconfig) -----
+
+
+
+[Priya] ----- START: Active Network Connections (netstat) -----
+[Priya] Running command: netstat -tulnp
+===================================
+./priya_task1_network_dignose.sh: line 29: netstat: command not found
+[Priya] ----- COMPLETE: Active Network Connections (netstat) -----
+
+
+
+[Priya] ----- START: DNS Lookup (nslookup google.com) -----
+[Priya] Running command: nslookup google.com
+===================================
+Server:		192.168.28.157
+Address:	192.168.28.157#53
+
+Non-authoritative answer:
+Name:	google.com
+Address: 142.251.221.110
+Name:	google.com
+Address: 2404:6800:4007:835::200e
+
+[Priya] ----- COMPLETE: DNS Lookup (nslookup google.com) -----
+
+
+
+[Priya] ----- START: Traceroute to google.com -----
+[Priya] Running command: traceroute google.com
+===================================
+traceroute to google.com (142.251.221.110), 30 hops max, 60 byte packets
+ 1  _gateway (192.168.28.157)  4.924 ms  4.800 ms  4.824 ms
+ 2  * * *
+ 3  * * *
+ 4  * * *
+ 5  * * *
+ 6  * * *
+ 7  * * *
+ 8  * * *
+ 9  * * *
+10  * * *
+11  * * *
+12  * * *
+13  * * *
+14  * * *
+15  * * *
+16  * * *
+17  * * *
+18  * * *
+19  * * *
+20  * * *
+21  * * *
+22  * * *
+23  * * *
+24  * * *
+25  * * *
+26  * * *
+27  * * *
+28  * * *
+29  * * *
+30  * * *
+[Priya] ----- COMPLETE: Traceroute to google.com -----
+
+
+
+[Priya] ----- START: Ping to google.com -----
+[Priya] Running command: ping -c 4 google.com
+===================================
+PING google.com(pnmaaa-as-in-x0e.1e100.net (2404:6800:4007:835::200e)) 56 data bytes
+64 bytes from pnmaaa-as-in-x0e.1e100.net (2404:6800:4007:835::200e): icmp_seq=1 ttl=116 time=408 ms
+64 bytes from pnmaaa-as-in-x0e.1e100.net (2404:6800:4007:835::200e): icmp_seq=2 ttl=116 time=227 ms
+64 bytes from pnmaaa-as-in-x0e.1e100.net (2404:6800:4007:835::200e): icmp_seq=3 ttl=116 time=57.3 ms
+64 bytes from pnmaaa-as-in-x0e.1e100.net (2404:6800:4007:835::200e): icmp_seq=4 ttl=116 time=51.6 ms
+
+--- google.com ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3005ms
+rtt min/avg/max/mdev = 51.550/185.892/408.086/146.292 ms
+[Priya] ----- COMPLETE: Ping to google.com -----
+
+
+
+[Priya] Stopping tcpdump process (PID: 4320)
+[Priya] tcpdump capture saved to network_diagnostics_20250522_212951/icmp_traceroute.pcap
+[Priya] Converting output.txt to PDF...
+[Priya] PDF saved to network_diagnostics_20250522_212951/output.pdf
+[Priya] Diagnostics complete. Output files are in: network_diagnostics_20250522_212951

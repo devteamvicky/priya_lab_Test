@@ -1,0 +1,7 @@
+[Server] Starting Echo Server on 127.0.0.1:9001
+[Server] Waiting for connection...
+[Server] Connected to ('127.0.0.1', 54590)
+[Server] Received: vignesh
+[Server] Echoed: vignesh
+[Server] Received: hi
+[Server] Echoed: hi

@@ -1,0 +1,10 @@
+step1:Open two terminals
+step2:Terminal 1---->python3 echo_server.py   # or chat_server.py
+step3:Terminal 2:---->python3 echo_client.py   # or chat_client.py
+
+final :
+	Output Files
+
+    echo_server_log.txt, echo_client_log.txt
+
+    chat_server_log.txt, chat_client_log.txt

@@ -1,0 +1,12 @@
+sudo apt install tcpdump ---first intsall this one ,then you try 
+
+1.chmod +x capture_packets.sh
+2.sudo ./capture_packets.sh
+
+
+Output Files
+
+    packet_capture_YYYYMMDD_HHMMSS.txt → Human-readable packet details
+
+    packet_capture_YYYYMMDD_HHMMSS.pcap → Wireshark-compatible file
+

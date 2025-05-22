@@ -1,0 +1,18 @@
+How to Run
+
+    Open two terminals.
+
+    Terminal 1 (Run DNS Server):
+
+	python3 dns_server.py
+
+Terminal 2 (Run Client):
+
+	python3 dns_client.py
+
+Output Files
+
+    dns_server_log.txt: Logs all server-side domain requests and responses
+
+    dns_client_log.txt: Logs client requests and server replies
+

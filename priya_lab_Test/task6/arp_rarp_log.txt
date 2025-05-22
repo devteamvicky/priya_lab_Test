@@ -1,0 +1,10 @@
+=== ARP / RARP Protocol Simulation ===
+
+[ARP] Resolving MAC address for IP: 192
+[ARP] Error: No MAC address found for 192
+
+[RARP] Resolving IP address for MAC: 2
+[RARP] Error: No IP address found for 2
+
+[RARP] Resolving IP address for MAC: 2
+[RARP] Error: No IP address found for 2
